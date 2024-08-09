@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-green-100">
       <header className="bg-gray-800 text-white p-4">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold">Your App</h1>
@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
           </nav>
         </div>
       </header>
-      <main className="flex-grow">
+      <main className="flex-grow bg-green-100">
         {children}
       </main>
       <footer className="bg-red-600 p-4 mt-8">
