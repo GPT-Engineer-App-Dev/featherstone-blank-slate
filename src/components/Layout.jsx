@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
       <main className="flex-grow container mx-auto px-4 py-8">
         {children}
       </main>
-      <footer className="bg-blue-600">
+      <footer className="bg-red-600">
         <div className="container mx-auto px-4 py-6 text-center text-white text-sm">
           © 2024 Your App. All rights reserved.
         </div>
